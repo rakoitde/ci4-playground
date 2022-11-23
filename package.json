@@ -1,0 +1,16 @@
+{
+    "name": "application-theme-bs5",
+    "version": "1.0.0",
+    "description": "Codeigniter 4 Application Theme for Bootstrap 5",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile:sass": "sass sass/AppThemeBS5.scss:css/AppThemeBS5.css"
+    },
+    "author": "Ralf Kornberger <rakoitde@gmail.com>",
+    "license": "",
+    "dependencies": {
+        "@popperjs/core": "^2.11",
+        "bootstrap": "^5.2",
+        "bootstrap-icons": "^1.9"
+    }
+}
