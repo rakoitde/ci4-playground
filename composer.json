@@ -12,8 +12,8 @@
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.1",
-        "rakoitde/ci4-tools": "^0.1.0",
-        "rakoitde/ci4-themes": "^0.2.0"
+        "rakoitde/ci4-tools": "^0.1",
+        "rakoitde/ci4-themes": "@dev"
     },
     "repositories": [
         {
