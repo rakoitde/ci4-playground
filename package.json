@@ -4,7 +4,10 @@
     "description": "Codeigniter 4 Application Theme for Bootstrap 5",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "compile:sass": "sass sass/AppThemeBS5.scss:css/AppThemeBS5.css"
+        "compile:sass": "sass sass/AppThemeBS5.scss:css/AppThemeBS5.css",
+        "cp:popper": "cp node_modules/@popperjs/core/dist/umd/popper.min.* public/js || copy node_modules/@popperjs/core/dist/umd/popper.min.* public/js",
+        "cp:bootstrap": "cp node_modules/bootstrap/dist/js/bootstrap.min.* public/js || copy node_modules/bootstrap/dist/js/bootstrap.min.* public/js",
+        "cp:bootstrap-icons": "cp node_modules/bootstrap-icons/* public/bootstrap-icons || copy node_modules/bootstrap-icons/* public/bootstrap-icons"
     },
     "author": "Ralf Kornberger <rakoitde@gmail.com>",
     "license": "",
