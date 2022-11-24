@@ -6,8 +6,8 @@
 
 
 			<!-- Javascript -->
-			<script src="<?= base_url('js/popper.min.js') ?>"></script>
-			<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
+			<script src="<?= base_url('@popperjs/core/dist/umd/popper.min.js') ?>"></script>
+			<script src="<?= base_url('bootstrap/dist/js/bootstrap.min.js') ?>"></script>
 
 			<!-- AppThemeBS5 JS -->
 			<script src="<?= base_url('js/AppThemeBS5.js') ?>"></script>
