@@ -67,8 +67,8 @@ class RoutesApiController extends ResourceController
         $this->_order();
         $this->_limit();
 
-        $this->model->orLike('vorname', $this->request->getGet('search'), 'both');
-        $this->model->orLike('nachname', $this->request->getGet('search'), 'both');
+        $this->model->orLike('vorname', $this->request->getGet('search') ?? '', 'both');
+        $this->model->orLike('nachname', $this->request->getGet('search') ?? '', 'both');
 
         $this->_likeFilter();
 
