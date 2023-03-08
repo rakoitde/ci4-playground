@@ -63,7 +63,7 @@
 										<div class="item p-3">
 											<div class="row gx-2 justify-content-between align-items-center">
 												<div class="col-auto">
-													<img class="profile-image" src="<?= base_url('images/bootstrap.png') ?>" alt="">
+													<img class="profile-image" src="collapse.png" alt="">
 												</div>
 												<div class="col">
 													<div class="info">

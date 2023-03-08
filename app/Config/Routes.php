@@ -36,7 +36,10 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('hallo/', 'Home::index');
 
+$routes->get('company', 'CompanyController::index');
+$routes->get('htmx/company', 'CompanyHtmxController::index');
 
 $routes->get('api/0.1/folder', 'FolderApiController::index');
 
