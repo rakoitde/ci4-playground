@@ -1,4 +1,4 @@
-# CodeIgniter 4 Application Starter kit 2
+# CodeIgniter 4 Application Starter kit new feature
 
 ## What is CodeIgniter?
 
